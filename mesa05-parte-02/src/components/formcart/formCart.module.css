@@ -1,0 +1,16 @@
+.FormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .item {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .item button {
+    background: rgb(91, 11, 176);
+  }
+  

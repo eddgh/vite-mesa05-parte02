@@ -1,0 +1,8 @@
+.Input {
+    display: flex;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #f9f7f7;
+    color: rgb(80, 80, 85);
+  }

@@ -1,0 +1,24 @@
+.itemList {
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    line-height: 0.1rem;
+    color: rgb(91, 88, 97);
+}
+
+.numero {
+    font-weight: 500;
+}
+
+.item {
+    color: rgb(204, 10, 247);
+}
+
+.itemList button {
+    color: #fff;
+    background: #e2d9d7;
+    font-size: 10px;
+    padding: 3px;
+}
