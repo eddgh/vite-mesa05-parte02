@@ -8,8 +8,8 @@ export default function Cart({ index, item, removeItemFromList }) {
         <div className={styles.itemList}>
             <p style={
                 item.length <= 22 ? { 'line-height': '0.1rem' } : { 'line-height': '1.5rem' }
-                }>
-                O item <b>{index}</b> - <span className={styles.item}>{item}</span> foi adicionado à lista!
+            }>
+                O item <b>{index + 1 < 11 ? '0' : ''}{index}</b> - <span className={styles.item}>{item}</span> foi adicionado à lista!
             </p>
             <button
                 className={styles.button}
