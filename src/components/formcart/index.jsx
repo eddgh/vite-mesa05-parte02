@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Input } from './components/input';
+import { Input } from './components/Input';
 import styles from './formCart.module.css';
 
 export default function FormCart({ handleSubmit }) {
